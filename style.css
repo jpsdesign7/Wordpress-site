@@ -1,34 +1,85 @@
 .site-branding {
 	width: 300px;
-	margin: 40px auto 40px auto;
+	margin: 40px auto auto auto;
 }
 .nav-menu {
-  flex-direction: row;
-  justify-content: space-around;
   padding: 0;
 	font-family: helvetica;
 	font-weight: bold;
-	font-size: 1.3em;
-	letter-spacing: 3px;
-	flex: 0 1 1000px;
+	font-size: 1em;
+	letter-spacing: 1px;
+	text-align: center;
 }
 .main-navigation a {
-	color: white;
+	color: #404040;
 }
 .menu {
-	background: #FF5F00;
-	padding-top: 25px;
 	padding-bottom: 25px;
 	display: flex;
 	justify-content: center;
 }
-.entry-title {
-	padding: 0;
-	margin: 0 auto;
+.menu-toggle {
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 1em;
+	letter-spacing: 1px;
+	background: #FF5F00;
+	color: white;
+	margin: 10px auto;
 }
-@media (min-width: 800px) {
+.menu-toggle:hover {
+	background: white;
+	color: #404040;
+}
+.entry-title {
+	display: none;
+}
+.entry-content {
+	padding-top: 80px;
+	max-width: 1000px;
+  width: 95%;
+  margin: auto;
+}
+.title-text {
+	font-size: 25px;
+}
+.about-text {
+	font-family: helvetica;
+	font-size: 15px;
+}
+.site-info {
+	display: none;
+}
+
+@media (min-width: 600px) {
   .site-branding {
     width: 500px;
-		margin: 80px auto 80px auto;
+		margin: 80px auto 80px auto
   }
+	.about-text {
+    font-size: 18px;
+	}s
+	.entry-content {
+		padding-top: 100px;
+	}
+	.menu {
+		background: #FF5F00;
+	}
+	.main-navigation a {
+		color: white;
+	}
+	.nav-menu {
+  	flex-direction: row;
+  	justify-content: space-around;
+ 	 	padding: 0;
+		font-family: helvetica;
+		font-weight: bold;
+		font-size: 1.3em;
+		letter-spacing: 3px;
+		flex: 0 1 1000px;
+	}
+	.menu {
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
 }
