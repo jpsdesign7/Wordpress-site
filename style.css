@@ -50,6 +50,25 @@
 .site-info {
 	display: none;
 }
+.pushbutton-wide {
+	font-family: helvetica;
+	font-weight: bold;
+	background: #FF5F00;
+}
+.pushbutton-wide:hover {
+	background: white;
+	color: #404040;
+}
+.contact-me {
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 15px;
+	display: flex;
+	justify-content: space-around;
+}
+.welcome-header {
+	text-align: center;
+}
 
 @media (min-width: 600px) {
   .site-branding {
