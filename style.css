@@ -23,7 +23,7 @@
 	font-weight: bold;
 	font-size: 1em;
 	letter-spacing: 1px;
-	background: #FF5F00;
+	background: #404040;
 	color: white;
 	margin: 10px auto;
 }
@@ -35,7 +35,7 @@
 	display: none;
 }
 .entry-content {
-	padding-top: 80px;
+	padding-top: 100px;
 	max-width: 1000px;
   width: 95%;
   margin: auto;
@@ -69,6 +69,12 @@
 .welcome-header {
 	text-align: center;
 }
+.gallery-columns-2 .gallery-item {
+	max-width: 100%;
+}
+.gallery-item {
+	margin-top: 100px;
+}
 
 @media (min-width: 600px) {
   .site-branding {
@@ -77,15 +83,15 @@
   }
 	.about-text {
     font-size: 18px;
-	}s
+	}
 	.entry-content {
 		padding-top: 100px;
 	}
 	.menu {
-		background: #FF5F00;
+		background: white;
 	}
 	.main-navigation a {
-		color: white;
+		color: #404040;
 	}
 	.nav-menu {
   	flex-direction: row;
@@ -100,5 +106,11 @@
 	.menu {
 		padding-top: 25px;
 		padding-bottom: 25px;
+	}
+	.gallery-item {
+	margin: 60px auto;
+	}
+	.gallery-columns-2 .gallery-item {
+    max-width: 50%;
 	}
 }
